@@ -5,7 +5,7 @@ import azure.functions as func
 
 app = func.FunctionApp()
 
-@app.queue_trigger(arg_name="msg", queue_name="orders-queue", connection="AzureWebJobsStorage")
+@app.queue_trigger(arg_name="msg", queue_name="order-queue", connection="AzureWebJobsStorage")
 def process_order(msg: func.QueueMessage) -> None:
     try:
         # Decode and parse queue payload
