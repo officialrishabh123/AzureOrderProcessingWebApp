@@ -1,10 +1,15 @@
 {
   "version": "2.0",
   "logging": {
+    "fileLoggingMode": "always",
+    "logLevel": {
+      "default": "Trace",
+      "Function": "Trace",
+      "Host": "Trace"
+    },
     "applicationInsights": {
       "samplingSettings": {
-        "isEnabled": true,
-        "excludedTypes": "Request"
+        "isEnabled": false
       }
     }
   },
