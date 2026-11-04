@@ -3,11 +3,11 @@
   "logging": {
     "fileLoggingMode": "always",
     "logLevel": {
-      "default": "Warning",
-      "Host": "Warning",
-      "Host.Aggregator": "Warning",
-      "Host.Results": "Warning",
-      "Function": "Information",
+     # "default": "Warning",
+     # "Host": "Warning",
+     # "Host.Aggregator": "Warning",
+     # "Host.Results": "Warning",
+     # "Function": "Information",
       "Function.process_order": "Information"
     }
   },
